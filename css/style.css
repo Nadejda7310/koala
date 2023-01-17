@@ -132,7 +132,7 @@
     display: flex;
     gap: 64px;
     padding-top: 117px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .work__img{
@@ -209,3 +209,107 @@
 .work__block-link:hover{
     text-decoration: none;
 }
+
+/* work end */
+
+/* shop start */
+
+.shop__wrap{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 105px;
+    align-items: center;
+    gap: 57px;
+}
+
+.shop__header-title{
+    margin: 0;
+    font-size: 48px;
+    line-height: 53px;
+    font-weight: normal;
+    max-width: 453px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.shop__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+
+.shop__header-text{
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: var(--grey);
+}
+
+.btn-primary--light-green{
+    background-color: var(--light-green);
+    color: var(--main-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-primary--light-green:hover{
+    background-color: var(--main-color);
+    color: var(--light-green);
+}
+
+.shop__block{
+    display: flex;
+    gap: 30px;
+}
+
+.shop__block-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.shop__block-card-img{
+    background-color: var(--main-background);
+}
+
+.shop__block-card-title{
+    font-size: 35px;
+    line-height: 39px;
+    font-weight: normal;
+    color: var(--main-color);
+    margin: 13px 0 15px 0;
+}
+
+.shop__block-card-tag{
+    border-radius: 20px;
+    background: var(--main-background);
+    padding: 4px 10px 6px 10px;
+    color: var(--main-color);
+}
+
+.shop__block-card-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: start;
+    padding: 0;
+}
+
+.shop__block-card-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: var(--grey);
+    margin: 0 0 8px 0;
+}
+
+.shop__block-card-prescription{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: var(--main-color);
+}
+
+/* shop end */
