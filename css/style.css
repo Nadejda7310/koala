@@ -1,0 +1,119 @@
+:root{
+    --main-background: #F4F1ED;
+    --grey: #636E72;
+    --main-color: #0E2D22;
+    --light-green: #CBDDBF;
+    --pink: #9E5B54; 
+    --white: #F4F1ED;
+
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 30px 0 30px;
+    max-width: 1280px;
+}
+
+.body{
+    margin: 0;
+}
+
+/* header start */
+
+.header{
+    background-color: var(--main-background);
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.nav__list{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav__list-item-link{
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 16px;
+    line-height: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__list-item-link:hover{
+    background-color: var(--main-color);
+    color: #F4F1ED;
+    border-radius: 1000px;
+    padding: 3px 7px;
+}
+
+/* header end */
+
+/* intro start */
+
+.header,
+.intro{
+    background-image: url(../img/intro.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: initial;
+}
+
+.intro{
+    min-height: 743px;
+    background-color: var(--main-background);
+}
+
+.intro__wrap{
+    display: flex;
+    justify-content: end;
+}
+
+.intro__block{
+    max-width: 494px;
+    padding-top: 169px;
+}
+
+.intro__block-title{
+    margin: 0;
+    font-size: 66px;
+    line-height: 69px;
+    color: var(--main-color);
+    max-width: 419px;
+    font-weight: normal;
+}
+
+.intro__block-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    color: var(--main-color);
+    margin: 13px 0 40px 0;
+}
+
+.btn-primary{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    min-width: 232px;
+    justify-content: center;
+    min-height: 40px;
+    border-radius: 1000px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-primary--green{
+    background-color: var(--main-color);
+    color: var(--light-green);
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-primary--green:hover{
+    background-color: var(--light-green);
+    color: var(--main-color);
+}
